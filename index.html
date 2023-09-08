@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b08fc825cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <h2 class=" heading"> <span class="heading-color">P</span>ort<span  class="heading-color">f</span>olio</h2>
+                <img src="" class ="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Here</p>
+                <h1>Hey , I'm <span>Sarita</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+        <!---about   ------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about1.jpeg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h3 class="sub-title">About Me</h3>
+                        <p class="pi"> Hello everyone Welcome to <span>MY Portfolio</span><br>
+                            My name is <span> Sarita Prajapati</span> and 
+                            Recently I'm pursing bachelor of technology <span>(B.TECH)</span>
+                            from ABES insttiute of technology and University is AKTU.
+                        </p>
+                             <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links"onclick=" opentab('education')">Education</p>
+                             </div>
+                             <div class="tab-content active-tab" id="skills">
+                                <ul>
+                                    <li><span> App Development</span> <br> Design interface using Java programing Language</li>
+                                    <li><span>Web Development</span> <br>  Design Website using Markup lanuage </li>
+                                    
+                                </ul>
+                             </div>
+                             <div class="tab-content" id="experience">
+                                <ul>
+                                    <li><span>2021</span> <br> Project Multisine-Restrurant Java </li>
+                                    <li><span>2022</span> <br>Scholify Website</li>
+                                
+                                </ul>
+                             </div>
+                             <div class="tab-content" id="education">
+                                <ul>
+                                    <li><span>2020-2024</span> <br>B.TECH </li>
+                                    <li><span>2018-2020</span> <br> 10th 12th</li>
+                                 
+                                </ul>
+                             
+                            </div>
+                       </div>
+                    </div>
+              </div>
+        </div>
+    <!---  ---------   Services    -----------------   -->
+     <div id="services">
+        <div class="container">
+            <h2 class="sub-title"> My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur
+                         adipisicing elit. Optio, soluta pariatur eaque repellendus minima 
+                        non fugiat expedita accusamus quis architecto!</p>
+                        <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Multisine-Restrurant</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur
+                         adipisicing elit. Optio, soluta pariatur eaque repellendus minima 
+                        non fugiat expedita accusamus quis architecto!</p>
+                        <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur
+                         adipisicing elit. Optio, soluta pariatur eaque repellendus minima 
+                        non fugiat expedita accusamus quis architecto!</p>
+                        <a href="">learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!----  --------    Portfolio-->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGpY3P5AjWRx4Dk1O0YeAoOEZcYbay_WAHelJ3aDuomx-LjVXkP0PVAzF1_fS_8yWsFn0&usqp=CAU" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur
+                             ique repellendus odit totam in, cupiditate, 
+                            porro ducimus. Consequuntur, at obcaecati.
+                        </p>
+                        <a href="#">
+                            <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://thinkremote.com/wp-content/uploads/2021/05/21st-May-TR-Banner-Top-5-Strategies-To-Improve-Work-Life-Balance-When-Working-Remotely.jpg" alt="">
+                    <div class="layer">
+                        <h3>web Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur
+                            a velit similique repellendus odit totam in, cupiditate, 
+                            porro ducimus. Consequuntur, at obcaecati.
+                        </p>
+                        <a href="#">
+                            <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://alis.alberta.ca/media/699248/work-search-tools-desk-guide-istock-820850710.jpg?crop=0.038235294117647062,0,0.095304539138490046,0&cropmode=percentage&width=660&height=508&rnd=132616815360000000" alt="">
+                    <div class="layer">
+                        <h3>Online  App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur
+                             lit similique repellendus odit totam in, cupiditate, 
+                            porro ducimus. Consequuntur, at obcaecati.
+                        </p>
+                        <a href="#">
+                            <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+     </div>
+     <!-----------------------Contact----------------->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>xyz123@gmail.com</p>
+              <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 123456789</p>
+              <div class="social-icon">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+               <a href=""  download class="btn btn2">Download CV</a>
+       </div>
+            <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                         <input type="text" name="Name" placeholder="Your Name" required>
+                          <input type="email" name="Email" placeholder="Your Email" required>
+                          <textarea name="Message" placeholder="Your Message"  rows="6"></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> Hello</span>
+               </div>
+          </div>
+      </div>
+      <div class="copyright">
+        <p>copyright @ sarita ,Media<i class="fa-solid fa-heart"></i> by Easy Tutorial</p>
+      </div>
+ </div>
+<!---- --------   -----     Java Script ---------     --------              -->
+    <script>
+        var tablinks=document.getElementsByClassName("tab-link");
+        var tabcontents=document.getElementsByClassName("tab-content");
+       
+        function opentab(tabname){
+    
+            for( tablink of tablinks){
+                tablink.classList.remove("active-link");
+    
+            }
+            for( tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+    
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbypwmHHbnDnL4pQ0Gg1M6RxmHDDMbcJY8j6VXgO45pIoLeOCQOFrsXfSsL1fzkyArzb/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=" "
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
